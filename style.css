@@ -1,0 +1,173 @@
+body {
+}
+header {
+	height: 229px;
+}
+.aside-img-head {
+	float: left;
+	background: url(img/main-bg.gif);
+	background-repeat: repeat-x;
+	height: 229px;
+	width: 19%;
+	margin-top: 3px;
+}
+.middle-head {
+	width: 61.5%;
+	height: 229px;
+	float: left;
+}
+.squares {
+	width: 8%;
+	height: 65px;
+	background: url(img/topbg.jpg);
+	margin-top: 3px;
+	float: left;
+}
+.logo {
+	padding-left: 30%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.header-img {
+	background-image: url(img/header.jpg);
+	height: 164px;
+	width: 100%;
+	margin: 0 auto;
+}
+p {
+	margin: 0;
+}
+.head-menu {
+	margin: 0;
+	padding: 0;
+	width: 12%;
+	list-style: none;
+	top: 6px;
+	position: relative;
+	left: 91px;
+}
+.head-menu > li {
+	padding: 5px;
+	background: url(img/bullet-normal.gif) no-repeat 0 8px;
+	border-bottom: 1px dashed #AECCCA;
+	font-weight: 700;
+}
+.head-menu>li:hover {
+	background: url(img/bullet-hover.gif) no-repeat 0 8px;
+}
+a {
+	text-decoration: none;
+	color: #305E5C;
+}
+main {
+	width: 50%;
+	margin: 0 auto;
+	height: 1000px;
+}
+.main-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	padding-top: 35px;
+}
+.main-menu > li {
+	padding: 5px;
+	color: #5F7A77;
+	font-size: 14px;
+}
+.main-menu .font-w-900 {
+	font-weight: 700;
+	font-size: 22px;
+}
+.main-menu a {
+	background: url(img/bullet2-normal.gif) no-repeat 0 6px;
+	padding-left: 10px;
+}
+.main-menu a:hover {
+	background: url(img/bullet2-hover.gif) no-repeat 0 6px;	
+}
+.line {
+	background-color: #C8E8E2;
+	width: 1px;
+	height: 870px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 65px;
+}
+.content {
+	width: 74%;
+	height: 860px;
+	float: left;
+	margin-left: 35px;
+	padding-top: 76px;
+}
+.content div {
+	width: 100%;
+	height: 10px;
+	background-color: #EAF8F7;
+}
+.content a {
+	position: relative;
+	top: -22px;
+	left: 300px;
+}
+.special-img img {
+	position: relative;
+	top: 6px;
+}
+.special-img:hover {
+	background: url(img/buy.gif) no-repeat 0 3px;
+	display: block;
+}
+.special-img:hover img {
+	visibility: hidden;
+	/*background: transparent;*/
+}
+.content p > img {
+	float: left;
+	margin-right: 23px;
+	margin-bottom: 9px;
+}
+.content p {
+	line-height: 1.5;
+	text-align: justify;
+}
+.plant, .aquarium {
+	margin-top: 40px;
+}
+footer {
+	background: url(img/footerbg.gif);
+	width: 100%;
+	background-repeat: repeat-x;
+	height: 66px;
+	padding-top: 74px;
+	font-size: 14px;
+}
+.footer-menu {
+	list-style: none;
+	width: 25%;
+	margin: 0 auto;
+	padding-left: 73px;
+}
+.footer-menu li {
+	display: inline-block;
+	text-align: center;
+	padding: 0 10px;
+	line-height: 14px;
+}
+.footer-menu li:first-child {
+	border-right: 1px solid;
+}
+.footer-menu li:nth-child(3) {
+	border-right: 1px solid;
+	border-left: 1px solid;
+}
+.footer-menu li>a {
+	color: black;
+}
+footer p {
+	text-align: center;
+	margin-top: 10px;
+}
